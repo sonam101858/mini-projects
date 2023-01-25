@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login_form</title>
+        <!--Link css file-->
+        <link rel="stylesheet" href="style.css">
+        <!--Link css file-->
+    </head>
+    <body>
+        <div class="title"><h1>Sing In Form</h1></div>
+        <div class="container">
+          <div class="left"></div>
+          <div class="right">
+            <div class="form-box">
+             <form name="myForm"  onsubmit="return validateForm()" method="post">
+                <p>Username</p>
+                <input type="text" name="fname" placeholder="Enter your name">
+                <p>Password</p>
+                <input type="password" name="fpass" placeholder="Enter your password">
+                <input type="submit" name="" value="Sign In" >
+                <a href="#">Forget Password</a>
+             </form>
+            </div>
+          </div>
+        </div>
+    </body>
+
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["fname"].value;
+          let y = document.forms["myForm"]["fpass"].value;
+
+
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+          else if (y == "") {
+            alert("Password must be filled out");
+            return false;
+          }
+        }
+
+
+        </script>
+</html>

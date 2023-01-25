@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsible Navbar</title>
+
+    <!--Link css file-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Link css file-->
+
+    <!--link media query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link media query-->
+
+    <!--Icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--Icons-->
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.png" class="logo" />
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" href="#">About</a></li>
+                <li><a class="link" href="user.php">ADD STUDENT</a></li>
+                <li><a class="link" href="display.php">DISPLAY</a></li>
+                <li><a class="link" href="login.php">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+
+        </div>
+    </header>
+
+    <!--Main area-->
+    <main>
+        <section class="section">
+            <div class="write">
+                <p>Write any thing</p>
+            </div>
+        </section>
+    </main>
+    <!--Main area-->
+
+    <!--Section area-->
+    <section class="section-service">
+        <div class="Services">
+            <p>You can make anything</p>
+        </div>
+    </section>
+    <!--Section area-->
+
+    <script src="javascrpt/script.js"></script>
+
+</body>
+
+</html>

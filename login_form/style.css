@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/background-image1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #262626;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background:#fff ;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,5);
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(images/student1.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.form-box{
+ width: 100%;
+ padding: 80px 40px;
+ box-sizing: border-box;
+ height: 400px;
+ background: #fff;
+}
+.form-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #a6af13;
+}
+.form-box input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-box input[type="text"],
+.form-box input[type="password"]
+{
+    border:none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 40px;
+}
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus
+{
+    border-bottom: 2px solid #262626;
+}
+.form-box input[type="submit"]{
+    border:none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.form-box input[type="submit"]:hover{
+    background: #a6af13;
+}
+.form-box a{
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-box a:hover{
+    color: #a6af13;
+}

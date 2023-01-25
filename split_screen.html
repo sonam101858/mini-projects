@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+    <header>
+        <title>Split Screen</title>
+    </header>
+    <style>
+        body{
+            font-family: Arial;
+            color: white;
+            display: flex;
+        }
+        .split{
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            top: 0;
+            padding-top: 20px;
+
+        }
+        .left{
+            left: 0;
+            background-color: #111;
+        }
+        .right{
+            right: 0;
+            background-color: red;
+
+        }
+        .centered{
+           text-align: center;
+           margin-top: 10rem;
+           
+        }
+        .centered img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: none;
+        align-items: center;
+        }
+        .centered img p h3{
+            text-align: center;
+        }
+    </style>
+<body>
+    <div class="split left">
+        <div class="centered">
+      <img src="images/logo1.jpg">
+      <h2>LOGO-1</h2>
+      <p>Some Text.</p>
+        </div>
+    </div>
+
+    <div class="split right">
+        <div class="centered">
+      <img src="images/logo2.jpg">
+      <h2>LOGO-2</h2>
+      <p>Some Text.</p>
+        </div>
+    </div>
+</body>
+</html>
